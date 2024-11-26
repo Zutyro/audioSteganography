@@ -1,11 +1,8 @@
 import lsb
 
 def main():
-    encoded_file = lsb.encode("sound81.wav", "secret.txt")
-    print(encoded_file)
-    # decode_file = lsb.decode("secret.txt")
-    # print(decode_file)
-
+    # lsb.encode_aud_data("watch-this-spoken_C_minor", "tohle je testova veta")
+    lsb.decode_aud_data("watch-this-spoken_C_minornew")
 
 
 
